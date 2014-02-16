@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">음성인식 </string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">음성인식</string>
+    <string name="save">pref</string>
+    <string name="vibration">진동모드로 전환 합니다.</string>
+    <string name="silent">무음모드로 전환 합니다.</string>
+    <string name="normal">벨소리로 전환합니다.</string>
+    <string name="wifi">와이파이를 켜고 끕니다.</string>
+    <string name="accept">전화가 걸려왔을때 받을 수 있습니다.</string>
+    <string name="reject">전화가 걸려왔을때 거절 할 수 있습니다.</string>
+    <string name="recognition">현재 화면의 문자인식을 준비합니다.</string>
+    <string name="action">해당 어플리케이션을 실행합니다.</string>
+    <string name="button">해당 버튼을 동작시킵니다.</string>
+    <string name="scroll">해당 방향으로 이동합니다.</string>
+    <string name="call">상대방에게 전화를 걸 수 있습니다.</string>
+    <string name="music">해당 음악을 재생합니다.</string>
+    <string name="search"> 인터넷에서 검색합니다.</string>
+    <string name="touch">"인식"이라는 명령어를 통해 문자인식으로 준비된 문자들을 실행 할 수 있습니다.</string>
+    <string name="sms">상대방에게 문자를 보낼 수 있습니다.</string>
+    
+</resources>

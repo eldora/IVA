@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="app" size="871,850" id="com.iva.app" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D3130204D61696E4163746976697479">
+  <children xsi:type="editmodel:ClassEditModel" name="BroadCastReceiver" location="50,762" size="186,68" id="com.iva.app/BroadCastReceiver" runTimeClassModel="onReceive(Landroid.content.Context;Landroid.content.Intent;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onReceive" id="com.iva.app/BroadCastReceiver#onReceive(Landroid.content.Context;Landroid.content.Intent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MainActivity" location="286,762" size="136,68" id="com.iva.app/MainActivity" runTimeClassModel="onCreate(Landroid.os.Bundle;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="com.iva.app/MainActivity#onCreate(Landroid.os.Bundle;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Tab_Activity" location="472,762" size="133,30" id="com.iva.app/Tab_Activity" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Tab1_Start" location="655,762" size="122,30" id="com.iva.app/Tab1_Start" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Tab3_Motion_list" location="291,528" size="175,130" id="com.iva.app/Tab3_Motion_list" runTimeClassModel="buttons2,listView,editor,buttons,pref">
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="buttons" id="com.iva.app/Tab3_Motion_list#buttons"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="buttons2" id="com.iva.app/Tab3_Motion_list#buttons2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="editor" id="com.iva.app/Tab3_Motion_list#editor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="listView" id="com.iva.app/Tab3_Motion_list#listView"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pref" id="com.iva.app/Tab3_Motion_list#pref"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Tab4_PassWord" location="516,528" size="219,76" id="com.iva.app/Tab4_PassWord" runTimeClassModel="edit,preferences">
+    <children xsi:type="editmodel:CompartmentEditModel" size="196,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="edit" id="com.iva.app/Tab4_PassWord#edit"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="preferences" id="com.iva.app/Tab4_PassWord#preferences"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Tab2_Applist" location="547,50" size="199,202" id="com.iva.app/Tab2_Applist" runTimeClassModel="com.iva.app.Tab2_Applist.MyAdapter">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="176,142">
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0" name="MyAdapter" location="294,163" size="176,140" id="com.iva.app/Tab2_Applist$MyAdapter" runTimeClassModel="MyAdapter(Landroid.content.Context;ILjava.util.List;),child,getView(ILandroid.view.View;Landroid.view.ViewGroup;),getItem(I),getCount()">
+        <children xsi:type="editmodel:CompartmentEditModel" size="153,18">
+          <children xsi:type="editmodel:AttributeEditModel" name="child" id="com.iva.app/Tab2_Applist$MyAdapter#child"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="88,72">
+          <children xsi:type="editmodel:MethodEditModel" name="MyAdapter" id="com.iva.app/Tab2_Applist$MyAdapter#MyAdapter(Landroid.content.Context;ILjava.util.List;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getCount" id="com.iva.app/Tab2_Applist$MyAdapter#getCount()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getItem" id="com.iva.app/Tab2_Applist$MyAdapter#getItem(I)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getView" id="com.iva.app/Tab2_Applist$MyAdapter#getView(ILandroid.view.View;Landroid.view.ViewGroup;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.iva.app/Tab2_Applist->com.iva.app/Tab2_Applist$MyAdapter*com.iva.app/Tab2_Applist-Soyatec::Import->com.iva.app/Tab2_Applist$MyAdapter" source="//@children.6" target="//@children.6/@children.2/@children.0" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="199,182" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,19"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="LockScreen" location="50,528" size="191,184" id="com.iva.app/LockScreen" runTimeClassModel="onBackPressed(),onDestroy(),com.iva.app.LockScreen.Lock_Screen_Kill,pref">
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="pref" id="com.iva.app/LockScreen#pref"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,36">
+      <children xsi:type="editmodel:MethodEditModel" name="onBackPressed" id="com.iva.app/LockScreen#onBackPressed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onDestroy" id="com.iva.app/LockScreen#onDestroy()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="168,70">
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="Lock_Screen_Kill" location="244,120" size="168,68" id="com.iva.app/LockScreen$Lock_Screen_Kill" runTimeClassModel="onReceive(Landroid.content.Context;Landroid.content.Intent;)">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="87,18">
+          <children xsi:type="editmodel:MethodEditModel" name="onReceive" id="com.iva.app/LockScreen$Lock_Screen_Kill#onReceive(Landroid.content.Context;Landroid.content.Intent;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.iva.app/LockScreen->com.iva.app/LockScreen$Lock_Screen_Kill" source="//@children.7" target="//@children.7/@children.2/@children.0" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="191,152" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,32"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Voice_motion" location="322,50" size="175,284" id="com.iva.app/Voice_motion" runTimeClassModel="slient_vibrate(I),cursor,wifi_on_off(),touch_soc(Ljava.lang.String;),reject_call(),lock_release(Ljava.lang.String;),Voice_value(Ljava.lang.String;),context,receive_call(),Voice_motion(Landroid.content.Context;Landroid.content.SharedPreferences;),receiveResults(Ljava.util.ArrayList;),filter,pref">
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="context" id="com.iva.app/Voice_motion#context"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cursor" id="com.iva.app/Voice_motion#cursor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="filter" id="com.iva.app/Voice_motion#filter"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pref" id="com.iva.app/Voice_motion#pref"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,162">
+      <children xsi:type="editmodel:MethodEditModel" name="Voice_motion" id="com.iva.app/Voice_motion#Voice_motion(Landroid.content.Context;Landroid.content.SharedPreferences;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Voice_value" id="com.iva.app/Voice_motion#Voice_value(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lock_release" id="com.iva.app/Voice_motion#lock_release(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receiveResults" id="com.iva.app/Voice_motion#receiveResults(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receive_call" id="com.iva.app/Voice_motion#receive_call()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reject_call" id="com.iva.app/Voice_motion#reject_call()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="slient_vibrate" id="com.iva.app/Voice_motion#slient_vibrate(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="touch_soc" id="com.iva.app/Voice_motion#touch_soc(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="wifi_on_off" id="com.iva.app/Voice_motion#wifi_on_off()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.iva.app/Voice_motion->com.iva.app/characterFilter*com.iva.app/Voice_motion-Soyatec::Import->com.iva.app/characterFilter*com.iva.app/Voice_motion->com.iva.app/characterFilter*com.iva.app/Voice_motion->com.iva.app/characterFilter*com.iva.app/Voice_motion->com.iva.app/characterFilter" source="//@children.8" target="//@children.9" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,142" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="225,142"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0" name="characterFilter" location="50,50" size="225,428" id="com.iva.app/characterFilter" runTimeClassModel="search_music_name(Ljava.util.ArrayList;),receive_result,param2_index,scrolls,setReceive_result(Ljava.util.ArrayList;),buttons,characterFilter(Landroid.content.Context;Landroid.content.SharedPreferences;),best_match(Ljava.lang.String;),param0_index,order(),excute_order(I),search_app_name(Ljava.util.ArrayList;),search_contact_name(Ljava.util.ArrayList;),context,param1_index,delet_target(ILjava.lang.String;),split_result,search_btn_name(Ljava.util.ArrayList;),order_list_all,pref,without_(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="202,180">
+      <children xsi:type="editmodel:AttributeEditModel" name="buttons" id="com.iva.app/characterFilter#buttons"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="context" id="com.iva.app/characterFilter#context"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="order_list_all" id="com.iva.app/characterFilter#order_list_all"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="param0_index" id="com.iva.app/characterFilter#param0_index"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="param1_index" id="com.iva.app/characterFilter#param1_index"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="param2_index" id="com.iva.app/characterFilter#param2_index"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pref" id="com.iva.app/characterFilter#pref"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="receive_result" id="com.iva.app/characterFilter#receive_result"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="scrolls" id="com.iva.app/characterFilter#scrolls"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="split_result" id="com.iva.app/characterFilter#split_result"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,198">
+      <children xsi:type="editmodel:MethodEditModel" name="best_match" id="com.iva.app/characterFilter#best_match(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="characterFilter" id="com.iva.app/characterFilter#characterFilter(Landroid.content.Context;Landroid.content.SharedPreferences;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="delet_target" id="com.iva.app/characterFilter#delet_target(ILjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="excute_order" id="com.iva.app/characterFilter#excute_order(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="order" id="com.iva.app/characterFilter#order()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="search_app_name" id="com.iva.app/characterFilter#search_app_name(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="search_btn_name" id="com.iva.app/characterFilter#search_btn_name(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="search_contact_name" id="com.iva.app/characterFilter#search_contact_name(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="search_music_name" id="com.iva.app/characterFilter#search_music_name(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setReceive_result" id="com.iva.app/characterFilter#setReceive_result(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="without_" id="com.iva.app/characterFilter#without_(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

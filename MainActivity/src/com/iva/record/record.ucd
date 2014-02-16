@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="record" size="866,1307" id="com.iva.record" metadata="uml2-1.0" initialized="true" scrolledX="-55" scrolledY="5" tag="10" key="32303037303533312D3130204D61696E4163746976697479">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2" name="Recording" location="90,60" size="211,194" id="com.iva.record/Recording" runTimeClassModel="mDuration,mFilename,cREATOR,Recording(Ljava.lang.String;),Recording(Ljava.lang.String;D),describeContents(),toString(),writeToParcel(Landroid.os.Parcel;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="188,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="cREATOR" id="com.iva.record/Recording#cREATOR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mDuration" id="com.iva.record/Recording#mDuration"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mFilename" id="com.iva.record/Recording#mFilename"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Recording" id="com.iva.record/Recording#Recording(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Recording" id="com.iva.record/Recording#Recording(Ljava.lang.String;D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="describeContents" id="com.iva.record/Recording#describeContents()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="com.iva.record/Recording#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeToParcel" id="com.iva.record/Recording#writeToParcel(Landroid.os.Parcel;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="FLACRecorder" location="288,743" size="229,544" id="com.iva.record/FLACRecorder" runTimeClassModel="mapChannelConfig(I),FLACRecorder(Ljava.lang.String;Landroid.os.Handler;),startRecording(),mSG_INVALID_FORMAT,mSG_WRITE_ERROR,mSG_ILLEGAL_ARGUMENT,com.iva.record.FLACRecorder.Amplitudes,mSG_OK,mSG_READ_ERROR,mSG_AMPLITUDES,stopRecording(),isRecording(),run(),mSG_HARDWARE_UNAVAILABLE,getAmplitudes(),mapFormat(I),getDuration()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="206,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_AMPLITUDES" id="com.iva.record/FLACRecorder#mSG_AMPLITUDES"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_HARDWARE_UNAVAILABLE" id="com.iva.record/FLACRecorder#mSG_HARDWARE_UNAVAILABLE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_ILLEGAL_ARGUMENT" id="com.iva.record/FLACRecorder#mSG_ILLEGAL_ARGUMENT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_INVALID_FORMAT" id="com.iva.record/FLACRecorder#mSG_INVALID_FORMAT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_OK" id="com.iva.record/FLACRecorder#mSG_OK"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_READ_ERROR" id="com.iva.record/FLACRecorder#mSG_READ_ERROR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_WRITE_ERROR" id="com.iva.record/FLACRecorder#mSG_WRITE_ERROR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mShouldRun" id="com.iva.record/FLACRecorder#mShouldRun"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,162">
+      <children xsi:type="editmodel:MethodEditModel" name="FLACRecorder" id="com.iva.record/FLACRecorder#FLACRecorder(Ljava.lang.String;Landroid.os.Handler;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAmplitudes" id="com.iva.record/FLACRecorder#getAmplitudes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDuration" id="com.iva.record/FLACRecorder#getDuration()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isRecording" id="com.iva.record/FLACRecorder#isRecording()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mapChannelConfig" id="com.iva.record/FLACRecorder#mapChannelConfig(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mapFormat" id="com.iva.record/FLACRecorder#mapFormat(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="com.iva.record/FLACRecorder#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startRecording" id="com.iva.record/FLACRecorder#startRecording()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stopRecording" id="com.iva.record/FLACRecorder#stopRecording()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,178">
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.1 //@children.2/@sourceConnections.1" name="Amplitudes" location="984,1729" size="128,176" id="com.iva.record/FLACRecorder$Amplitudes" runTimeClassModel="Amplitudes(Lcom.iva.record.FLACRecorder.Amplitudes;),mPeak,mPosition,Amplitudes(),mAverage,accumulate(Lcom.iva.record.FLACRecorder.Amplitudes;),toString()">
+        <children xsi:type="editmodel:CompartmentEditModel" size="105,54">
+          <children xsi:type="editmodel:AttributeEditModel" name="mAverage" id="com.iva.record/FLACRecorder$Amplitudes#mAverage"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="mPeak" id="com.iva.record/FLACRecorder$Amplitudes#mPeak"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="mPosition" id="com.iva.record/FLACRecorder$Amplitudes#mPosition"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="94,72">
+          <children xsi:type="editmodel:MethodEditModel" name="Amplitudes" id="com.iva.record/FLACRecorder$Amplitudes#Amplitudes(Lcom.iva.record.FLACRecorder.Amplitudes;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="Amplitudes" id="com.iva.record/FLACRecorder$Amplitudes#Amplitudes()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="accumulate" id="com.iva.record/FLACRecorder$Amplitudes#accumulate(Lcom.iva.record.FLACRecorder.Amplitudes;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="toString" id="com.iva.record/FLACRecorder$Amplitudes#toString()"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="mRecorder" location="5,0" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - mRecorder" location="300,723" size="69,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="268,723" size="18,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="185,248"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.iva.record/FLACRecorder-Soyatec::Access->com.iva.record/FLACRecorder$Amplitudes*com.iva.record/FLACRecorder-Soyatec::Import->com.iva.record/FLACRecorder$Amplitudes*com.iva.record/FLACRecorder->com.iva.record/FLACRecorder$Amplitudes" source="//@children.1" target="//@children.1/@children.2/@children.0" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Access»" size="93,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="229,462" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="11,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="VoiceRecorder" location="74,431" size="211,248" id="com.iva.record/VoiceRecorder" runTimeClassModel="rECORDING_EXTENSION,stop(),isRecording(),getFilename(),start(),getAmplitudes(),eXTENSION,dATA_EXTENSION,mSG_END_OF_RECORDING,VoiceRecorder(Landroid.content.Context;Landroid.os.Handler;),getDuration()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="188,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="dATA_EXTENSION" id="com.iva.record/VoiceRecorder#dATA_EXTENSION"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="eXTENSION" id="com.iva.record/VoiceRecorder#eXTENSION"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_END_OF_RECORDING" id="com.iva.record/VoiceRecorder#mSG_END_OF_RECORDING"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rECORDING_EXTENSION" id="com.iva.record/VoiceRecorder#rECORDING_EXTENSION"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,126">
+      <children xsi:type="editmodel:MethodEditModel" name="VoiceRecorder" id="com.iva.record/VoiceRecorder#VoiceRecorder(Landroid.content.Context;Landroid.os.Handler;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAmplitudes" id="com.iva.record/VoiceRecorder#getAmplitudes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDuration" id="com.iva.record/VoiceRecorder#getDuration()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFilename" id="com.iva.record/VoiceRecorder#getFilename()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isRecording" id="com.iva.record/VoiceRecorder#isRecording()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="com.iva.record/VoiceRecorder#start()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stop" id="com.iva.record/VoiceRecorder#stop()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,248" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,37"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.iva.record/VoiceRecorder-Soyatec::Import->com.iva.record/FLACRecorder$Amplitudes*com.iva.record/VoiceRecorder-Soyatec::Access->com.iva.record/FLACRecorder$Amplitudes*com.iva.record/VoiceRecorder-Soyatec::Import->com.iva.record/FLACRecorder$Amplitudes" source="//@children.2" target="//@children.1/@children.2/@children.0" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Access»" size="93,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="177,248" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="13,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.iva.record/VoiceRecorder-Soyatec::Access->com.iva.record/Recording*com.iva.record/VoiceRecorder->com.iva.record/Recording*com.iva.record/VoiceRecorder-Soyatec::Import->com.iva.record/Recording" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Access»" size="93,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="113,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="97,194"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

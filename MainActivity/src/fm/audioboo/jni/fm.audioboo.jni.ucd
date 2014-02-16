@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="758,1100" id="fm.audioboo.jni" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D3130204D61696E4163746976697479">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="FLACStreamEncoder" location="50,50" size="196,176" id="fm.audioboo.jni/FLACStreamEncoder" runTimeClassModel="FLACStreamEncoder(Ljava.lang.String;III),reset(Ljava.lang.String;III),getAverageAmplitude(),flush(),release(),getMaxAmplitude(),write(Ljava.nio.ByteBuffer;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="147,126">
+      <children xsi:type="editmodel:MethodEditModel" name="FLACStreamEncoder" id="fm.audioboo.jni/FLACStreamEncoder#FLACStreamEncoder(Ljava.lang.String;III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="fm.audioboo.jni/FLACStreamEncoder#flush()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAverageAmplitude" id="fm.audioboo.jni/FLACStreamEncoder#getAverageAmplitude()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMaxAmplitude" id="fm.audioboo.jni/FLACStreamEncoder#getMaxAmplitude()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="release" id="fm.audioboo.jni/FLACStreamEncoder#release()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reset" id="fm.audioboo.jni/FLACStreamEncoder#reset(Ljava.lang.String;III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="write" id="fm.audioboo.jni/FLACStreamEncoder#write(Ljava.nio.ByteBuffer;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="fm.audioboo.jni/FLACStreamEncoder@mEncoder+com.iva.record/FLACRecorder@" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="mEncoder" location="196,168" id="fm.audioboo.jni/FLACStreamEncoder@mEncoder+com.iva.record/FLACRecorder@|fm.audioboo.jni/FLACStreamEncoder#mEncoder" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - mEncoder" location="253,198" size="65,13" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="253,225" size="18,13" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="15,0" id="fm.audioboo.jni/FLACStreamEncoder@mEncoder+com.iva.record/FLACRecorder@|com.iva.record/FLACRecorder#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="FLACRecorder" location="345,220" size="229,557" id="com.iva.record/FLACRecorder" runTimeClassModel="mShouldRun,mapChannelConfig(I),FLACRecorder(Ljava.lang.String;Landroid.os.Handler;),mSG_INVALID_FORMAT,mSG_WRITE_ERROR,mSG_ILLEGAL_ARGUMENT,com.iva.record.FLACRecorder.Amplitudes,mSG_OK,mSG_READ_ERROR,mSG_AMPLITUDES,resumeRecording(),pauseRecording(),isRecording(),run(),mSG_HARDWARE_UNAVAILABLE,getAmplitudes(),mapFormat(I),getDuration()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="206,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_AMPLITUDES" id="com.iva.record/FLACRecorder#mSG_AMPLITUDES"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_HARDWARE_UNAVAILABLE" id="com.iva.record/FLACRecorder#mSG_HARDWARE_UNAVAILABLE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_ILLEGAL_ARGUMENT" id="com.iva.record/FLACRecorder#mSG_ILLEGAL_ARGUMENT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_INVALID_FORMAT" id="com.iva.record/FLACRecorder#mSG_INVALID_FORMAT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_OK" id="com.iva.record/FLACRecorder#mSG_OK"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_READ_ERROR" id="com.iva.record/FLACRecorder#mSG_READ_ERROR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_WRITE_ERROR" id="com.iva.record/FLACRecorder#mSG_WRITE_ERROR"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mShouldRun" id="com.iva.record/FLACRecorder#mShouldRun"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,162">
+      <children xsi:type="editmodel:MethodEditModel" name="FLACRecorder" id="com.iva.record/FLACRecorder#FLACRecorder(Ljava.lang.String;Landroid.os.Handler;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAmplitudes" id="com.iva.record/FLACRecorder#getAmplitudes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDuration" id="com.iva.record/FLACRecorder#getDuration()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isRecording" id="com.iva.record/FLACRecorder#isRecording()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mapChannelConfig" id="com.iva.record/FLACRecorder#mapChannelConfig(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mapFormat" id="com.iva.record/FLACRecorder#mapFormat(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="pauseRecording" id="com.iva.record/FLACRecorder#pauseRecording()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resumeRecording" id="com.iva.record/FLACRecorder#resumeRecording()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="com.iva.record/FLACRecorder#run()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,178">
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.1" name="Amplitudes" location="1176,650" size="128,176" id="com.iva.record/FLACRecorder$Amplitudes" runTimeClassModel="Amplitudes(Lcom.iva.record.FLACRecorder.Amplitudes;),mPeak,mPosition,Amplitudes(),mAverage,accumulate(Lcom.iva.record.FLACRecorder.Amplitudes;),toString()">
+        <children xsi:type="editmodel:CompartmentEditModel" size="105,54">
+          <children xsi:type="editmodel:AttributeEditModel" name="mAverage" id="com.iva.record/FLACRecorder$Amplitudes#mAverage"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="mPeak" id="com.iva.record/FLACRecorder$Amplitudes#mPeak"/>
+          <children xsi:type="editmodel:AttributeEditModel" name="mPosition" id="com.iva.record/FLACRecorder$Amplitudes#mPosition"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="94,72">
+          <children xsi:type="editmodel:MethodEditModel" name="Amplitudes" id="com.iva.record/FLACRecorder$Amplitudes#Amplitudes()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="Amplitudes" id="com.iva.record/FLACRecorder$Amplitudes#Amplitudes(Lcom.iva.record.FLACRecorder.Amplitudes;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="accumulate" id="com.iva.record/FLACRecorder$Amplitudes#accumulate(Lcom.iva.record.FLACRecorder.Amplitudes;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="toString" id="com.iva.record/FLACRecorder$Amplitudes#toString()"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.iva.record/FLACRecorder->fm.audioboo.jni/FLACStreamEncoder*com.iva.record/FLACRecorder-Soyatec::Import->fm.audioboo.jni/FLACStreamEncoder*com.iva.record/FLACRecorder->fm.audioboo.jni/FLACStreamEncoder" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,3" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,173"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.iva.record/FLACRecorder-Soyatec::Access->com.iva.record/FLACRecorder$Amplitudes*com.iva.record/FLACRecorder-Soyatec::Import->com.iva.record/FLACRecorder$Amplitudes*com.iva.record/FLACRecorder->com.iva.record/FLACRecorder$Amplitudes" source="//@children.1" target="//@children.1/@children.2/@children.0" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Access»" size="93,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="229,325" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,62"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

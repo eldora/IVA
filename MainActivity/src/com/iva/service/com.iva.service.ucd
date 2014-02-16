@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="871,973" id="com.iva.service" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D3130204D61696E4163746976697479">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.3" name="VoiceRecorder" location="130,50" size="211,261" id="com.iva.record/VoiceRecorder" runTimeClassModel="rECORDING_EXTENSION,isRecording(),stop(),getFilename(),start(),getAmplitudes(),eXTENSION,dATA_EXTENSION,mSG_END_OF_RECORDING,VoiceRecorder(Landroid.content.Context;Landroid.os.Handler;),getDuration()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="188,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="dATA_EXTENSION" id="com.iva.record/VoiceRecorder#dATA_EXTENSION"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="eXTENSION" id="com.iva.record/VoiceRecorder#eXTENSION"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mSG_END_OF_RECORDING" id="com.iva.record/VoiceRecorder#mSG_END_OF_RECORDING"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rECORDING_EXTENSION" id="com.iva.record/VoiceRecorder#rECORDING_EXTENSION"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,126">
+      <children xsi:type="editmodel:MethodEditModel" name="VoiceRecorder" id="com.iva.record/VoiceRecorder#VoiceRecorder(Landroid.content.Context;Landroid.os.Handler;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAmplitudes" id="com.iva.record/VoiceRecorder#getAmplitudes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDuration" id="com.iva.record/VoiceRecorder#getDuration()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFilename" id="com.iva.record/VoiceRecorder#getFilename()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isRecording" id="com.iva.record/VoiceRecorder#isRecording()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="com.iva.record/VoiceRecorder#start()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stop" id="com.iva.record/VoiceRecorder#stop()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.2" name="Voice_motion" location="576,656" size="175,297" id="com.iva.app/Voice_motion" runTimeClassModel="slient_vibrate(I),cursor,wifi_on_off(),touch_soc(Ljava.lang.String;),reject_call(),lock_release(Ljava.lang.String;),Voice_value(Ljava.lang.String;),context,receive_call(),Voice_motion(Landroid.content.Context;Landroid.content.SharedPreferences;),receiveResults(Ljava.util.ArrayList;),filter,pref">
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="cursor" id="com.iva.app/Voice_motion#cursor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="context" id="com.iva.app/Voice_motion#context"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="filter" id="com.iva.app/Voice_motion#filter"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pref" id="com.iva.app/Voice_motion#pref"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,162">
+      <children xsi:type="editmodel:MethodEditModel" name="Voice_motion" id="com.iva.app/Voice_motion#Voice_motion(Landroid.content.Context;Landroid.content.SharedPreferences;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receiveResults" id="com.iva.app/Voice_motion#receiveResults(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="touch_soc" id="com.iva.app/Voice_motion#touch_soc(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reject_call" id="com.iva.app/Voice_motion#reject_call()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="wifi_on_off" id="com.iva.app/Voice_motion#wifi_on_off()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Voice_value" id="com.iva.app/Voice_motion#Voice_value(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="slient_vibrate" id="com.iva.app/Voice_motion#slient_vibrate(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lock_release" id="com.iva.app/Voice_motion#lock_release(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receive_call" id="com.iva.app/Voice_motion#receive_call()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="BroadCastReceiver" location="656,130" size="186,81" id="com.iva.app/BroadCastReceiver" runTimeClassModel="onReceive(Landroid.content.Context;Landroid.content.Intent;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onReceive" id="com.iva.app/BroadCastReceiver#onReceive(Landroid.content.Context;Landroid.content.Intent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1" name="GoogleVoiceRecognition" location="50,576" size="224,58" id="com.iva.service/GoogleVoiceRecognition" runTimeClassModel="mESSAGE_TAG">
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="mESSAGE_TAG" id="com.iva.service/GoogleVoiceRecognition#mESSAGE_TAG"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VoiceRecognitionService" location="353,353" size="228,140" id="com.iva.service/VoiceRecognitionService" runTimeClassModel="onCreate(),onBind(Landroid.content.Intent;),onDestroy(),restartRecord(),onStartCommand(Landroid.content.Intent;II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,90">
+      <children xsi:type="editmodel:MethodEditModel" name="onBind" id="com.iva.service/VoiceRecognitionService#onBind(Landroid.content.Intent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="com.iva.service/VoiceRecognitionService#onCreate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onDestroy" id="com.iva.service/VoiceRecognitionService#onDestroy()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onStartCommand" id="com.iva.service/VoiceRecognitionService#onStartCommand(Landroid.content.Intent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="restartRecord" id="com.iva.service/VoiceRecognitionService#restartRecord()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.iva.service/VoiceRecognitionService->com.iva.app/BroadCastReceiver" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="192,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="47,81"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.iva.service/VoiceRecognitionService->com.iva.service/GoogleVoiceRecognition*com.iva.service/VoiceRecognitionService->com.iva.service/GoogleVoiceRecognition" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,138" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="161,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.iva.service/VoiceRecognitionService->com.iva.app/Voice_motion*com.iva.service/VoiceRecognitionService-Soyatec::Import->com.iva.app/Voice_motion" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="0,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="225,140" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="2,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.iva.service/VoiceRecognitionService->com.iva.record/VoiceRecorder*com.iva.service/VoiceRecognitionService-Soyatec::Import->com.iva.record/VoiceRecorder*com.iva.service/VoiceRecognitionService->com.iva.record/VoiceRecorder" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="49,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="47,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="211,241"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
